@@ -2,7 +2,7 @@ package com.thoughtworks.tw101.introductory_programming_exercises;
 
 public class DiamondExercises {
     public static void main(String[] args) {
-        drawAnIsoscelesTriangle(4);
+        drawAnIsoscelesTriangle(3);
         drawADiamond(8);
         drawADiamondWithYourName(3);
     }
