@@ -12,11 +12,11 @@ public class Main {
                 "Sorcerer Intro",
                 "To the Stone-Cutters"
         };
-
-        Library library = new Library(books, System.out);
+        Library library = new Library(books);
         library.printBooksContaining("Potter");
         library.printBooksContaining("Sorcerer");
         library.printBooksContaining("Intro");
         library.printBooksContaining("Stone");
+        library.printBooksContaining("helloooo");
     }
 }
